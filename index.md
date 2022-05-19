@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# Game in Unity - Apple & Worm: Patching holes on spacetime
+## A showcase of the technical achievements of this project
 
-You can use the [editor on GitHub](https://github.com/diegzumillo/Apple-and-Worm-showcase/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Apple & Worm is a platformer that happens in a curved 2D space, where different regions connect to other regions in unintuitive ways. This creates a game space with non trivial topology. While the game itself is still in development the engine is done.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In order to achieve the curved and interconnected space the game design requires, several approaches were implemented and tested. Here you can see some images of the progress of the engine at its various stages.
 
-### Markdown
+### A video on Youtube showcasing the gameplay
+[![Gameplay video](https://img.youtube.com/vi/G-1nO81KK1M/0.jpg)](https://www.youtube.com/watch?v=G-1nO81KK1M)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Early tests of curved spaces
 
-```markdown
-Syntax highlighted code block
+![Image](https://imgur.com/RKGGOYb.gif)
 
-# Header 1
-## Header 2
-### Header 3
+![Image](https://imgur.com/0QfeMET.gif)
 
-- Bulleted
-- List
+![Image](https://imgur.com/x3PdqZC.gif)
 
-1. Numbered
-2. List
+And the first iteration of a custom physics engine using Verlet integration method.
 
-**Bold** and _Italic_ and `Code` text
+![Image](https://imgur.com/kyEd4GZ.gif)
 
-[Link](url) and ![Image](src)
-```
+The new implementation (but still using the custom physics engine)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+![Image](https://imgur.com/yBcefAv.gif)
 
-### Jekyll Themes
+### Custom editor extensions
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/diegzumillo/Apple-and-Worm-showcase/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![Image](https://imgur.com/QKB8N1m.gif)
 
-### Support or Contact
+![Image](https://imgur.com/N2fTUmJ.gif)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Image](https://imgur.com/PtXbgeL.gif)
+
