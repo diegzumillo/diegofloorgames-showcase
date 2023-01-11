@@ -1,3 +1,6 @@
+*toc
+{:toc}
+
 # Game in Unity - Apple & Worm: Patching holes on spacetime
 ## A showcase of the technical achievements of this project
 
