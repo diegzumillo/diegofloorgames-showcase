@@ -3,7 +3,7 @@
 line
 
 
-[TOC]
+{:toc}
 
 
 # Game in Unity - Apple & Worm: Patching holes on spacetime
