@@ -32,8 +32,9 @@ The new implementation (but still using the custom physics engine)
 
 ![Image](https://imgur.com/PtXbgeL.gif)
 
-#A ray marcher renderer
-Although this is running in the Godot game engine, the renderer itself is coded from scratch inside a fragment shader. The goal of this project is to eventually make a flight simulator in a scifi setting; then the Godot engine will start becoming more relevant in this project, as I add functionalities unrelated to the renderer. For now it is just a renderer with basic features: full planet scale terrain, pre-defined number of dynamic lights with smooth shadows, a number of basic SDF (signed distance function) to combine into complex objects, including fractals, basic material with specular, color and displacement. 
+# A ray marcher renderer
+
+Although this is running in the Godot game engine, the renderer itself is coded from scratch inside a fragment shader. The goal of this project is to eventually make a flight simulator in a scifi setting; then the Godot engine will start becoming more relevant in this project, as I add functionalities unrelated to the renderer. For now it is just a renderer with basic features: full planet scale terrain, pre-defined number of dynamic lights with smooth shadows, a number of basic SDF (signed distance function) to combine into complex objects, including fractals, basic material with specular, color, texture, and displacement. 
 
 ![Image](https://imgur.com/IgW0V8h.png)
 
@@ -50,11 +51,32 @@ Although this is running in the Godot game engine, the renderer itself is coded 
 ![Image](https://imgur.com/uiSlEAb.gif)
 
 
-links
-stealth proto https://youtu.be/3hU832U6Rao
-ropes https://youtu.be/_eehUli9B-4
-sound https://youtu.be/g29Gz-cF9yI
-flightsim https://youtu.be/1g1bmk2ZKRo
-pico https://youtu.be/Uxl1X4Zmlf4
-sprite https://youtu.be/EuBdXLUwYdw
-daw https://youtu.be/eyyy4n1sTiw
+# Assorted videos of old projects
+
+## A stealth game prototype. 
+It has parkour movement implemented, (with a damn cool grapple system I still want to use somehwere) as well as a novel detection system that analyzes a guard's actual vision for changes.
+
+[![Gameplay video](https://img.youtube.com/vi/3hU832U6Rao/0.jpg)](https://www.youtube.com/watch?v=3hU832U6Rao)
+
+## Old 3D puzzle platformer
+Very old. Looks fun though
+[![Gameplay video](https://img.youtube.com/vi/_eehUli9B-4/0.jpg)](https://www.youtube.com/watch?v=_eehUli9B-4)
+
+## Sound propagation system
+I'm pretty sure this was meant to go with the stealth prototype
+[![Gameplay video](https://img.youtube.com/vi/g29Gz-cF9yI/0.jpg)](https://www.youtube.com/watch?v=g29Gz-cF9yI)
+
+## Basic Flight simulator dynamics
+Yes, this is for the ray marcher project above. I made this as a proof of concept and it will definitely make its way to the ray marcher eventually. 
+[![Gameplay video](https://img.youtube.com/vi/1g1bmk2ZKRo/0.jpg)](https://www.youtube.com/watch?v=1g1bmk2ZKRo)
+
+## A simple game on Pico-8
+[![Gameplay video](https://img.youtube.com/vi/Uxl1X4Zmlf4/0.jpg)](https://www.youtube.com/watch?v=Uxl1X4Zmlf4)
+
+## A sprite tool
+For the Mega Drive game project I saw the need to make this tool. It shifts the sprite each frame and outputs all the offsets. This was made in Godot.
+[![Gameplay video](https://img.youtube.com/vi/EuBdXLUwYdw/0.jpg)](https://www.youtube.com/watch?v=EuBdXLUwYdw)
+
+## A music maker
+Never finished it but the idea was to make a basic note sequencer. Also made in Godot.
+[![Gameplay video](https://img.youtube.com/vi/eyyy4n1sTiw/0.jpg)](https://www.youtube.com/watch?v=eyyy4n1sTiw)
