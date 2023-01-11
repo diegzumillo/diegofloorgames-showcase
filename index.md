@@ -1,6 +1,3 @@
-# test
-
-line
 
 * auto-gen TOC:
 {:toc}
