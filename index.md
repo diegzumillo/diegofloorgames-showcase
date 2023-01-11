@@ -51,6 +51,31 @@ Although this is running in the Godot game engine, the renderer itself is coded 
 ![Image](https://imgur.com/uiSlEAb.gif)
 
 
+# Game for the Mega Drive
+SGDK is a library for C that allows one to program the SEGA Mega Drive. I always wanted to make a Mega Drive game, but was never insane enough to code in ASM, so this came in handy! It's still extremely low level coding, very close to the hardware. It was a nice challenge and learning project. At the end the only reason this project wasn't finished is because I am not happy with the game design itself. But the engine is complete enough that I decided to open source it.
+
+Initially, this was going to be closer to games like Prince of Persia, Flashback, Blackthorne etc, but with stealth
+
+![Image](https://imgur.com/Zn9igXd.gif)
+
+Testing guard behavior:
+
+![Image](https://imgur.com/vR3jdtg.gif)
+
+Testing level transition
+
+![Image](https://imgur.com/i9ea6vr.gif)
+
+Once that wasn't working for me I decided to implement a more free form movement style
+
+![Image](https://imgur.com/qLosX49.gif)
+
+
+Extra artistic stuff:
+![Image](https://imgur.com/T3W1Cbp.png)
+![Image](https://imgur.com/fuz1sAx.gif)
+![Image](https://imgur.com/Ivdk1u2.png)
+
 # Assorted videos of old projects
 
 ## A stealth game prototype. 
@@ -59,24 +84,30 @@ It has parkour movement implemented, (with a damn cool grapple system I still wa
 [![Gameplay video](https://img.youtube.com/vi/3hU832U6Rao/0.jpg)](https://www.youtube.com/watch?v=3hU832U6Rao)
 
 ## Old 3D puzzle platformer
-Very old. Looks fun though
+Very old. Looks fun though.
+
 [![Gameplay video](https://img.youtube.com/vi/_eehUli9B-4/0.jpg)](https://www.youtube.com/watch?v=_eehUli9B-4)
 
 ## Sound propagation system
-I'm pretty sure this was meant to go with the stealth prototype
+I'm pretty sure this was meant to go with the stealth prototype.
+
 [![Gameplay video](https://img.youtube.com/vi/g29Gz-cF9yI/0.jpg)](https://www.youtube.com/watch?v=g29Gz-cF9yI)
 
 ## Basic Flight simulator dynamics
-Yes, this is for the ray marcher project above. I made this as a proof of concept and it will definitely make its way to the ray marcher eventually. 
+Yes, this is for the ray marcher project above. I made this as a proof of concept and it will definitely make its way to the ray marcher eventually. The plots show some of the flight dynamic coefficients changing in real time. This was made in Unity.
+
 [![Gameplay video](https://img.youtube.com/vi/1g1bmk2ZKRo/0.jpg)](https://www.youtube.com/watch?v=1g1bmk2ZKRo)
 
 ## A simple game on Pico-8
+
 [![Gameplay video](https://img.youtube.com/vi/Uxl1X4Zmlf4/0.jpg)](https://www.youtube.com/watch?v=Uxl1X4Zmlf4)
 
 ## A sprite tool
 For the Mega Drive game project I saw the need to make this tool. It shifts the sprite each frame and outputs all the offsets. This was made in Godot.
+
 [![Gameplay video](https://img.youtube.com/vi/EuBdXLUwYdw/0.jpg)](https://www.youtube.com/watch?v=EuBdXLUwYdw)
 
 ## A music maker
 Never finished it but the idea was to make a basic note sequencer. Also made in Godot.
+
 [![Gameplay video](https://img.youtube.com/vi/eyyy4n1sTiw/0.jpg)](https://www.youtube.com/watch?v=eyyy4n1sTiw)
