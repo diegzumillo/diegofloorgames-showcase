@@ -58,7 +58,7 @@ The goal of this project is to eventually make a flight simulator in a scifi set
 
 
 # Game for the Mega Drive
-SGDK is a library for C that allows one to program the SEGA Mega Drive. I always wanted to make a Mega Drive game, but was never insane enough to code in ASM, so this came in handy! It's still extremely low level coding, very close to the hardware. It was a nice challenge and learning project. At the end the only reason this project wasn't finished is because I am not happy with the game design itself. But the engine is complete enough that I decided to open source it.
+SGDK is a library for C that allows one to program the SEGA Mega Drive. I always wanted to make a Mega Drive game, but was never insane enough to code in ASM, so this came in handy! It's still extremely low level coding, very close to the hardware. It was a nice challenge and learning project. I eventually shelved this project because I wasn't too happy with the prototype, but has since been revived for an upcoming kickstarter campaign.
 
 Initially, this was going to be closer to games like Prince of Persia, Flashback, Blackthorne etc, but with stealth
 
