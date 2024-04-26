@@ -37,9 +37,10 @@ The new implementation (but still using the custom physics engine)
 
 ![Image](https://imgur.com/PtXbgeL.gif)
 
-# A ray marcher renderer
+# A ray marcher renderer in a custom engine in C
 
-Although this is running in the Godot game engine, the renderer itself is coded from scratch inside a fragment shader. The goal of this project is to eventually make a flight simulator in a scifi setting; then the Godot engine will start becoming more relevant in this project, as I add functionalities unrelated to the renderer. For now it is just a renderer with basic features: full planet scale terrain, pre-defined number of dynamic lights with smooth shadows, a number of basic SDF (signed distance function) to combine into complex objects, including fractals, basic material with specular, color, texture, and displacement. 
+This project started its life as a quick experiment in Unity. I wanted to write a ray marcher in shader. It worked, but it felt like I was fighting against the engine. So I moved to Godot, and it felt the same. This project is one of those rare cases where building an engine from the ground up makes sense. The communication with the shader needs to be hand crafted to make this work as intended, and that's what I did.
+The goal of this project is to eventually make a flight simulator in a scifi setting; A few basic features already implemented: full planet scale terrain, pre-defined number of dynamic lights with smooth shadows, a number of primitive SDF (signed distance function) to combine into complex objects, including fractals, basic material with specular, color, texture, and displacement. The whole engine is put together with SDL2 and openGL.
 
 ![Image](https://imgur.com/IgW0V8h.png)
 
