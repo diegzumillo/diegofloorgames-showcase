@@ -83,7 +83,7 @@ Extra artistic stuff:
 ![Image](https://imgur.com/Ivdk1u2.png)
 
 This game saw a Kickstarter campaign in 2024, which failed to achieve its goal but did raise 15000 euro.
-https://www.kickstarter.com/projects/eldrichmonarch/the-eldritch-monarch-horror-platformer-for-sega-mega-drive
+[Kickstarter for The Eldritch Monarch](https://www.kickstarter.com/projects/eldrichmonarch/the-eldritch-monarch-horror-platformer-for-sega-mega-drive)
 
 # Fluid Simulation in Lua
 
