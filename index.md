@@ -15,46 +15,46 @@ In order to achieve the curved and interconnected space the game design requires
 
 ### Early tests of curved spaces
 
-![Image](https://imgur.com/RKGGOYb.gif)
+![Image](https://i.imgur.com/RKGGOYb.gif)
 
-![Image](https://imgur.com/0QfeMET.gif)
+![Image](https://i.imgur.com/0QfeMET.gif)
 
-![Image](https://imgur.com/x3PdqZC.gif)
+![Image](https://i.imgur.com/x3PdqZC.gif)
 
 And the first iteration of a custom physics engine using Verlet integration method.
 
-![Image](https://imgur.com/kyEd4GZ.gif)
+![Image](https://i.imgur.com/kyEd4GZ.gif)
 
 The new implementation (but still using the custom physics engine)
 
-![Image](https://imgur.com/yBcefAv.gif)
+![Image](https://i.imgur.com/yBcefAv.gif)
 
 ### Custom editor extensions
 
-![Image](https://imgur.com/QKB8N1m.gif)
+![Image](https://i.imgur.com/QKB8N1m.gif)
 
-![Image](https://imgur.com/N2fTUmJ.gif)
+![Image](https://i.imgur.com/N2fTUmJ.gif)
 
-![Image](https://imgur.com/PtXbgeL.gif)
+![Image](https://i.imgur.com/PtXbgeL.gif)
 
 # A ray marcher renderer in a custom engine in C
 
 This project started its life as a quick experiment in Unity. I wanted to write a ray marcher in shader. It worked, but it felt like I was fighting against the engine. So I moved to Godot, and it felt the same. This project is one of those rare cases where building an engine from the ground up makes sense. The communication with the shader needs to be hand crafted to make this work as intended, and that's what I did.
 The goal of this project is to eventually make a flight simulator in a scifi setting; A few basic features already implemented: full planet scale terrain, pre-defined number of dynamic lights with smooth shadows, a number of primitive SDF (signed distance function) to combine into complex objects, including fractals, basic material with specular, color, texture, and displacement. The whole engine is put together with SDL2 and openGL.
 
-![Image](https://imgur.com/IgW0V8h.png)
+![Image](https://i.imgur.com/IgW0V8h.png)
 
-![Image](https://imgur.com/ttg0F4a.gif)
+![Image](https://i.imgur.com/ttg0F4a.gif)
 
-![Image](https://imgur.com/K2bbrct.png)
+![Image](https://i.imgur.com/K2bbrct.png)
 
-![Image](https://imgur.com/eu7GGJm.png)
+![Image](https://i.imgur.com/eu7GGJm.png)
 
-![Image](https://imgur.com/2einiuE.gif)
+![Image](https://i.imgur.com/2einiuE.gif)
 
-![Image](https://imgur.com/tmawcqx.gif)
+![Image](https://i.imgur.com/tmawcqx.gif)
 
-![Image](https://imgur.com/uiSlEAb.gif)
+![Image](https://i.imgur.com/uiSlEAb.gif)
 
 
 # Game for the Mega Drive
@@ -62,25 +62,25 @@ SGDK is a library for C that allows one to program the SEGA Mega Drive. I always
 
 Initially, this was going to be closer to games like Prince of Persia, Flashback, Blackthorne etc, but with stealth
 
-![Image](https://imgur.com/Zn9igXd.gif)
+![Image](https://i.imgur.com/Zn9igXd.gif)
 
 Testing guard behavior:
 
-![Image](https://imgur.com/vR3jdtg.gif)
+![Image](https://i.imgur.com/vR3jdtg.gif)
 
 Testing level transition
 
-![Image](https://imgur.com/i9ea6vr.gif)
+![Image](https://i.imgur.com/i9ea6vr.gif)
 
 Once that wasn't working for me I decided to implement a more free form movement style
 
-![Image](https://imgur.com/qLosX49.gif)
+![Image](https://i.imgur.com/qLosX49.gif)
 
 
 Extra artistic stuff:
-![Image](https://imgur.com/T3W1Cbp.png)
-![Image](https://imgur.com/fuz1sAx.gif)
-![Image](https://imgur.com/Ivdk1u2.png)
+![Image](https://i.imgur.com/T3W1Cbp.png)
+![Image](https://i.imgur.com/fuz1sAx.gif)
+![Image](https://i.imgur.com/Ivdk1u2.png)
 
 This game saw a Kickstarter campaign in 2024, which failed to achieve its goal but did raise 15000 euro.
 [Kickstarter for The Eldritch Monarch](https://www.kickstarter.com/projects/eldrichmonarch/the-eldritch-monarch-horror-platformer-for-sega-mega-drive)
@@ -99,8 +99,8 @@ The simulation features:
 
 This project serves as both a learning exercise and a potential foundation for future game mechanics. The fluid simulation could be integrated into various game concepts, from realistic water effects to abstract puzzle mechanics based on fluid dynamics. At least that was the idea! But I didn't push this enough to be able to make an actual 'swimmer'. My best attempt worked; It was a simple object, with a single dynamic bridge (a muscle) that contracted, creating enough of an asymmetric drag to produce thrust. But it was too lame to be useful.
 
-![Image](https://imgur.com/TzQpFee.gif)
-![Image](https://imgur.com/uMOxNPy.gif)
+![Image](https://i.imgur.com/TzQpFee.gif)
+![Image](https://i.imgur.com/uMOxNPy.gif)
 
 
 [Insert images/gifs here to showcase the fluid simulation in action]
