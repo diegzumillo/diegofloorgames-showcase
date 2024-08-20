@@ -82,6 +82,31 @@ Extra artistic stuff:
 ![Image](https://imgur.com/fuz1sAx.gif)
 ![Image](https://imgur.com/Ivdk1u2.png)
 
+This game saw a Kickstarter campaign in 2024, which failed to achieve its goal but did raise 15000 euro.
+https://www.kickstarter.com/projects/eldrichmonarch/the-eldritch-monarch-horror-platformer-for-sega-mega-drive
+
+# Fluid Simulation in Lua
+
+There were two things I wanted to try, fluid simulations and the Löve game engine. So why not merge both into a single project? This wasn't my first contact with Lua, as that's the primary language in Pico-8. This project combines the Immersed Boundary Method (IBM) with traditional fluid dynamics techniques to create a versatile and visually appealing simulation.
+
+The simulation features:
+
+- Real-time fluid dynamics using a modified Navier-Stokes solver
+- Immersed boundary method for fluid-structure interaction
+- Customizable immersed objects with dynamic properties
+- Dye injection for flow visualization
+- Vorticity confinement for enhanced turbulence
+
+This project serves as both a learning exercise and a potential foundation for future game mechanics. The fluid simulation could be integrated into various game concepts, from realistic water effects to abstract puzzle mechanics based on fluid dynamics. At least that was the idea! But I didn't push this enough to be able to make an actual 'swimmer'. My best attempt worked; It was a simple object, with a single dynamic bridge (a muscle) that contracted, creating enough of an asymmetric drag to produce thrust. But it was too lame to be useful.
+
+![Image](https://imgur.com/TzQpFee.gif)
+![Image](https://imgur.com/uMOxNPy.gif)
+
+
+[Insert images/gifs here to showcase the fluid simulation in action]
+
+The implementation allows for easy experimentation with different parameters and boundary conditions, making it a valuable tool for prototyping ideas that involve fluid dynamics. Future plans include optimizing performance for larger simulations and exploring additional fluid-based game mechanics.
+
 # Assorted videos of old projects
 
 ## A stealth game prototype. 
